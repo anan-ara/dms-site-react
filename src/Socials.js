@@ -1,7 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
 import icon from './assets/icon.jpg';
-import './index.css';
 
 function Socials() {
   return (

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 .site-banner .row {
   padding: 26px 14px;
   border-radius: 20px;
@@ -13,6 +15,10 @@
   color: white;
 }
 
+#intro {
+  font-family: 'Lato', sans-serif;
+  padding-top: 100px;
+}
 
 #logo {
   border-radius: 10%;

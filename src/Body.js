@@ -4,7 +4,7 @@ import Dong from './assets/ShinDongMin.jpeg';
 function Body() {
   return (
     <main>
-      <section class="site-banner pt-4">
+      <section class="site-banner" id="intro">
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
