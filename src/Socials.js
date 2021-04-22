@@ -4,18 +4,16 @@ import icon from './assets/icon.jpg';
 function Socials() {
   return (
     <>
-    <a className="navbar-brand" href="#">
-      <img src={icon} alt="SDM" id="logo" />
-    </a>
+    <img src={icon} alt="SDM" id="logo" />
     <ul className="navbar-nav flex-row" id="social">
       <li>
-        <a href="#" className="nav-link"><i className="fa fa-instagram fa-lg"></i></a>
+        <a href="http://www.payforthllc.org" className="nav-link"><i className="fa fa-instagram fa-lg"></i></a>
       </li>
       <li>
-        <a href="#" className="nav-link"><i className="fa fa-twitter fa-lg"></i></a>
+        <a href="http://www.payforthllc.org" className="nav-link"><i className="fa fa-twitter fa-lg"></i></a>
       </li>
       <li>
-        <a href="#" className="nav-link"><i className="fa fa-linkedin fa-lg"></i></a>
+        <a href="http://www.payforthllc.org" className="nav-link"><i className="fa fa-linkedin fa-lg"></i></a>
       </li>
     </ul>
     </>

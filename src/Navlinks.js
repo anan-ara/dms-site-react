@@ -9,16 +9,16 @@ function Navlinks() {
     <div className="me-auto"></div>
       <ul className="navbar-nav justify-content-end">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#" id="test">Home</a>
+          <a className="nav-link active" aria-current="page" href="http://www.payforthllc.org" id="test">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About Me</a>
+          <a className="nav-link" href="http://www.payforthllc.org">About Me</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Projects</a>
+          <a className="nav-link" href="http://www.payforthllc.org">Projects</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <a className="nav-link" href="http://www.payforthllc.org">Contact</a>
         </li>
       </ul>
     </div>
