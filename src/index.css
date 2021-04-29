@@ -14,11 +14,14 @@
 .title-text {
   color: white;
 }
+.spacer {
+  padding-top: 100px;
+}
 
 #intro {
   font-family: 'Lato', sans-serif;
-  padding-top: 100px;
 }
+
 
 #logo {
   border-radius: 10%;

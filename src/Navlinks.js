@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Navlinks() {
   return (
     <>
@@ -9,10 +11,14 @@ function Navlinks() {
     <div className="me-auto"></div>
       <ul className="navbar-nav justify-content-end">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="http://www.payforthllc.org" id="test">Home</a>
+          <NavLink exact to="/" className="nav-link">
+            Home
+          </NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="http://www.payforthllc.org">About Me</a>
+          <NavLink to="/portfolio" className="nav-link">
+            About Me
+          </NavLink>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="http://www.payforthllc.org">Projects</a>
@@ -24,6 +30,6 @@ function Navlinks() {
     </div>
     </>
   );
-}
+};
 
 export default Navlinks;
